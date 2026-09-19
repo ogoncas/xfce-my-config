@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Catppuccin Mocha Blue Dark theme for GtkSourceView -->
+<style-scheme id="catppuccin-blue-dark" _name="Catppuccin Blue Dark" version="1.0">
+  <author>Mateus Calixto</author>
+  <_description>Catppuccin Dark theme with Blue accents</_description>
+
+  <color name="base"        value="#1e1e2e"/>
+  <color name="mantle"      value="#181825"/>
+  <color name="text"        value="#cdd6f4"/>
+  <color name="subtext0"    value="#a6adc8"/>
+  <color name="blue"        value="#89b4fa"/>
+  <color name="lavender"    value="#b4befe"/>
+  <color name="sapphire"    value="#74c7ec"/>
+  <color name="peach"       value="#fab387"/>
+  <color name="yellow"      value="#f9e2af"/>
+  <color name="green"       value="#a6e3a1"/>
+  <color name="red"         value="#f38ba8"/>
+  <color name="mauve"       value="#cba6f7"/>
+  <color name="pink"        value="#f5c2e7"/>
+  <color name="surface1"    value="#45475a"/>
+  <color name="surface2"    value="#585b70"/>
+  <color name="overlay0"    value="#6c7086"/>
+  <color name="cursor"      value="#f5e0dc"/>
+
+  <!-- Configurações Base -->
+  <style name="text" foreground="text" background="base"/>
+  <style name="selection" background="surface2" foreground="text"/>
+  <style name="cursor" foreground="cursor"/>
+  <style name="current-line" background="surface1"/>
+  <style name="line-numbers" foreground="overlay0" background="mantle"/>
+  <style name="draw-spaces" foreground="surface2"/>
+
+  <!-- Busca -->
+  <style name="search-match" background="yellow" foreground="base"/>
+
+  <!-- Chaves e Parênteses -->
+  <style name="bracket-match" background="surface2" foreground="blue" bold="true"/>
+  <style name="bracket-mismatch" background="red" foreground="base" bold="true"/>
+
+  <!-- Comentários -->
+  <style name="def:comment" foreground="overlay0" italic="true"/>
+  <style name="def:shebang" foreground="overlay0" bold="true"/>
+  <style name="def:doc-comment-element" italic="true"/>
+
+  <!-- Constantes e Strings -->
+  <style name="def:constant" foreground="peach"/>
+  <style name="def:string" foreground="green"/>
+  <style name="def:special-char" foreground="pink"/>
+  <style name="def:special-constant" foreground="peach"/>
+  <style name="def:floating-point" foreground="peach"/>
+  <style name="def:number" foreground="peach"/>
+
+  <!-- Identificadores -->
+  <style name="def:identifier" foreground="text"/>
+  <style name="def:function" foreground="blue"/>
+
+  <!-- Declarações -->
+  <style name="def:statement" foreground="mauve"/>
+  <style name="def:keyword" foreground="mauve"/>
+  <style name="def:operator" foreground="sapphire"/>
+
+  <!-- Tipos -->
+  <style name="def:type" foreground="yellow"/>
+
+  <!-- Outros -->
+  <style name="def:preprocessor" foreground="pink"/>
+  <style name="def:error" background="red" foreground="base"/>
+  <style name="def:warning" background="yellow" foreground="base"/>
+  <style name="def:note" background="blue" foreground="base"/>
+</style-scheme>
