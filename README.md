@@ -22,7 +22,7 @@ Este repositório contém minhas configurações pessoais (**dotfiles**), temas,
 
 ---
 
-## 🛠️ Temas e Estética
+## Temas e Estética
 
 - **Tema GTK:** Catppuccin Blue Dark
 - **Ícones:** Tela Circle Blue Dark
@@ -32,7 +32,7 @@ Este repositório contém minhas configurações pessoais (**dotfiles**), temas,
 
 ---
 
-## 🚀 Como Aplicar As Configurações
+## Como Aplicar As Configurações
 
 ### 1. Clocar o Repositório
 ```bash
