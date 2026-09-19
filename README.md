@@ -36,8 +36,8 @@ Este repositório contém minhas configurações pessoais (**dotfiles**), temas,
 
 ### 1. Clocar o Repositório
 ```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
-cd NOME-DO-REPOSITORIO
+git clone https://github.com/ogoncas/xfce-my-config.git
+cd xfce-my-config
 ```
 
 ### 2. Configurações do `~/.config`
